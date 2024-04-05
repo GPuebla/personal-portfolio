@@ -272,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/700/659/non_2x/fantastic-galaxy-background-in-blue-tones-free-vector.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -296,6 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: #E8B949;
 }
 
 .banner p {
@@ -637,7 +638,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .newsletter-bx {
-  background: #FFFFFF;
+  background: #010000;
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;
