@@ -106,8 +106,9 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
+  height: 100px;
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #121212ee;
 }
 
 nav.navbar a.navbar-brand {
@@ -543,6 +544,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.img-prog{
+  width: 100%;
+}
+
+.technologies-section{
+  display: grid;
+  grid-template-columns: auto 3fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.technologies-section .img-prog{
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.technologies-section h1{
+  grid-column: 2;
+  grid-row: 1/2;
+}
+
+.technologies-section ul{
+  grid-column: 2;
+  grid-row: 2/2;
+  border: 1px red solid;
+  height: 100%;
 }
 
 /************ Projects Css ************/

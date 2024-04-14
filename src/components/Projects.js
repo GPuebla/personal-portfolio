@@ -3,16 +3,28 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import prog2 from "../assets/img/prog-2.svg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
+  const technologies = [
+    {
+      name:"AAAAA",
+      logoUrl:"#"
+    },
+    {
+      name:"BBBBB",
+      logoUrl:"#"
+    }
+  ] 
+
   const projects = [
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       imgUrl: projImg1,
     },
     {
@@ -79,11 +91,25 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <section className="technologies-section">
+                        <img 
+                          className="img-prog"
+                          src={prog2}
+                        />
+                        <h2>
+                          Technologies
+                        </h2>
+                        <ul className="tech-list">
+                          {technologies.map((tech,index) =>{
+                              <li key={index}>{tech.name}</li>
+                          })}
+                        </ul>
+                      </section>
+
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>BBB Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
