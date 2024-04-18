@@ -8,17 +8,37 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+import { Technology } from "./Technology";
+import  htmllogo  from "../assets/img/html-logo.svg"
+import  jslogo  from "../assets/img/js-logo.svg"
+import  reactlogo from "../assets/img/react-logo.svg"
+import csslogo from "../assets/img/css-logo.svg"
+
+
 export const Projects = () => {
 
   const technologies = [
     {
-      name:"AAAAA",
-      logoUrl:"#"
+      title:"JavaScript",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imgUrl: jslogo,
     },
     {
-      name:"BBBBB",
-      logoUrl:"#"
+      title:"React",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imgUrl: reactlogo,
+    },
+    {
+      title:"HTML",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imgUrl: htmllogo,
+    },
+    {
+      title:"CSS",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      imgUrl: csslogo,
     }
+
   ] 
 
   const projects = [
@@ -101,9 +121,16 @@ export const Projects = () => {
                           Technologies
                         </h2>
                         <ul className="tech-list">
-                          {technologies.map((tech,index) =>{
-                              <li key={index}>{tech.name}</li>
-                          })}
+                          {
+                          technologies.map((tech,index) => {
+                              return(
+                                <Technology 
+                                  key={index}
+                                  {...tech}
+                                />
+                              )
+                            })
+                          }
                         </ul>
                       </section>
 

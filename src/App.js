@@ -6,6 +6,7 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { Technology } from './components/Technology';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <Technology />
     </div>
   );
 }
