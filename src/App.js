@@ -7,6 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { Technology } from './components/Technology';
+import BoostrapComponent from './components/BoostrapComponent';
 
 
 function App() {
@@ -17,7 +18,10 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
-      <Technology />
+      <BoostrapComponent Title ={'Title Test 1'}/>
+      <BoostrapComponent Title ={'Title Test 2'}/>
+      <BoostrapComponent Title ={'Title Test 3'}/>
+      <BoostrapComponent Title ={'Title Test 4'}/>
     </div>
   );
 }

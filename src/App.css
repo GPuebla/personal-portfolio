@@ -776,3 +776,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(1.5);
   opacity: 100%;
 }
+
+#redCard {
+  background-color: red;
+}
+
+#greenCard {
+  background-color: green;
+}
