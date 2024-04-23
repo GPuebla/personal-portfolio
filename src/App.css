@@ -537,6 +537,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
+.proj-txtx div {
+  margin-top: 20px;
+}
+
+.proj-txtx div a {
+  font-style:normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  margin-top: 50px;
+  text-decoration: none;
+  Color: orange;
+}
+
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -549,6 +563,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .img-prog {
   width: 100%;
 }
+
+/***************** Technology-section *****************/
 
 .technologies-section {
   display: grid;
@@ -783,4 +799,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 #greenCard {
   background-color: green;
+}
+
+/**************** Chart Component ****************/
+
+.chart {
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto 15px auto;
 }
