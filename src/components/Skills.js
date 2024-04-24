@@ -8,6 +8,14 @@ import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 import { ChartGauge } from "./ChartGauge";
 
+import skill1 from "../assets/img/skill-innovative.svg";
+import skill2 from "../assets/img/skill-multilingual.svg";
+import skill3 from "../assets/img/skill-team-player.svg";
+import skill4 from "../assets/img/skill-goal-oriented.svg";
+import skill5 from "../assets/img/skill-fast-learner.svg";
+import skill6 from "../assets/img/skill-multitasker.svg";
+import skill7 from "../assets/img/skill-problem-solver.svg";
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -39,21 +47,34 @@ export const Skills = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <ChartGauge />
-                                <h5>Web Development</h5>
+                            <img src={skill1} alt="Image" />
+                                <h5>Innovative</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={skill2} alt="Image" />
+                                <h5>Multilingual</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={skill3} alt="Image" />
+                                <h5>Team Player</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={skill4} alt="Image" />
+                                <h5>Goal Oriented</h5>
                             </div>
+                            <div className="item">
+                                <img src={skill5} alt="Image" />
+                                <h5>Fast Learner</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill6} alt="Image" />
+                                <h5>Multitasker</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill7} alt="Image" />
+                                <h5>Problem Solver.</h5>
+                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>
