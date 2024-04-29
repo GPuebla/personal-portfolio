@@ -6,9 +6,6 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
-import { Technology } from './components/Technology';
-import BoostrapComponent from './components/BoostrapComponent';
-import { ChartGauge } from './components/ChartGauge';
 
 
 function App() {
@@ -19,8 +16,6 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
-      <BoostrapComponent Title ={'Title Test 1'}/>
-      <ChartGauge />
     </div>
   );
 }

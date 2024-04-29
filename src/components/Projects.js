@@ -13,6 +13,7 @@ import  htmllogo  from "../assets/img/html-logo.svg"
 import  jslogo  from "../assets/img/js-logo.svg"
 import  reactlogo from "../assets/img/react-logo.svg"
 import csslogo from "../assets/img/css-logo.svg"
+import OtherExper from "./OtherExper";
 
 
 export const Projects = () => {
@@ -137,7 +138,7 @@ export const Projects = () => {
 
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>BBB Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <OtherExper/>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
