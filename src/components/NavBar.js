@@ -53,7 +53,7 @@ export const NavBar = () => {
                 <a href="https://github.com/GPuebla" target="blanck_"><img src={navIcon4} alt="GitHub Icon" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd" role="link" onClick={() => window.open('https://wa.link/8xywfe', '_blank')}><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

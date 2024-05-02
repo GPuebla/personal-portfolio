@@ -1,10 +1,11 @@
 import React from 'react'
 
-export default function ExperContainer({srcLink}) {
+export default function ExperContainer({srcLink,title = 'Title'}) {
   return (
     <div className='otherExp-container'>
     <img className='otherExp-img' src={srcLink} width={300} height={150}/>
     <p>
+      <h1>{title}</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut

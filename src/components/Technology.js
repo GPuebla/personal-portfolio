@@ -12,8 +12,8 @@ export const Technology = ({title,description,imgUrl}) => {
         >
             <img src={imgUrl} />
             <div className="tech-txtx">
-                <h4>{title}</h4>
-                <span>{description}</span>
+                <h3>{title}</h3>
+                <span><h4>{description}</h4></span>
             </div>
       </div>
     </>
