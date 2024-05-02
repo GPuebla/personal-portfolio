@@ -601,7 +601,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: wrap;
   align-content:flex-start;
   width: auto;
-  border: solid red 1px;
 }
 
 /************ Projects Css ************/
@@ -694,10 +693,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 30px 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(18,18,18);
+  background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(9,9,121,1) 24%, rgba(26,59,141,1) 57%, rgba(56,182,255,.7) 100%);
 }
 
 .newsletter-bx {
@@ -808,7 +805,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-width: 200px;
   max-height: 150px;
   transition: transform 0.6s ease;
-  border: solid 1px red;
   padding: 2rem;
 }
 
